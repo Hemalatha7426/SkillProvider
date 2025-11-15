@@ -1,0 +1,25 @@
+"use client";
+
+import React, { forwardRef } from "react";
+
+// Utility function for conditional class names
+const cn = (...classes) => classes.filter(Boolean).join(" ");
+
+const Label = forwardRef(({ className, children, ...props }, ref) => {
+  return (
+    <label
+      ref={ref}
+      className={cn(
+        "text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70",
+        className
+      )}
+      {...props}
+    >
+      {children}
+    </label>
+  );
+});
+
+Label.displayName = "Label";
+
+export { Label };

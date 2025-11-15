@@ -1,0 +1,1123 @@
+[
+ {
+  "id": "1",
+  "title": "Mastering JavaScript",
+  "description": "Learn JavaScript from scratch and build real-world projects.",
+  "category": "Web Development",
+  "level": "Beginner",
+  "duration": "8 hours",
+  "enrolledCount": 120,
+  "rating": 4.5,
+  "instructor": "John Doe",
+"videoUrl": "https://youtu.be/poo0BXryffI?si=q1vpYxyidDxLjHKc",
+"notesUrl": "https://basponccollege.org/LMS/EMaterial/Science/Comp/HVP/JS%20Notes.pdf",
+  "tags": ["JavaScript", "Frontend", "Web"],
+"overview": "In this comprehensive “Mastering JavaScript” course, you’ll embark on a complete journey from beginner to confident front-end developer.\n\n• Learn the fundamentals of JavaScript — from syntax, variables, data types, and operators to loops and functions.\n• Understand how JavaScript works in browsers and set up your development environment using VS Code and the browser console.\n• Explore functions in depth, including arrow functions, scope, hoisting, and closures, to write efficient and reusable code.\n• Manipulate the DOM to create dynamic and interactive web pages, handle events, and update styles programmatically.\n• Master asynchronous programming using callbacks, promises, and async/await for handling real-time data and API responses.\n• Discover advanced ES6+ concepts like modules, classes, destructuring, and template literals to write modern, maintainable code.\n• Strengthen your learning with practical exercises, coding challenges, and real-world projects including a To-Do List and the Booksky Project.\n• Access detailed notes for quick revision and use the YouTube video timestamps to navigate through each concept easily.\n\n📘 Modules Covered in this Course:\n1️⃣ Introduction to JavaScript\n2️⃣ Control Structures and Functions\n3️⃣ Working with Objects and Arrays\n4️⃣ The DOM and Events\n5️⃣ Asynchronous JavaScript\n6️⃣ ES6+ Advanced Concepts\n7️⃣ Real-world Applications\n8️⃣ Best Practices and Deployment\n\n🎬 Video Timestamps:\n00:00 - Intro\n00:52 - Course Preview\n01:24 - JavaScript Intro\n02:34 - Variables\n22:12 - Keywords\n23:09 - Comments\n24:35 - Operators\n31:43 - DataTypes\n34:47 - Functions and Exercise\n58:25 - if else and Exercise\n01:18:48 - For Loop\n01:30:40 - DOM Manipulation\n01:43:00 - DOM Events and Exercise\n02:05:55 - Random Numbers\n02:23:10 - DOM Style Manipulation\n02:28:30 - Task1\n02:33:18 - Task2\n02:41:05 - Task3\n02:42:37 - Task4\n02:50:01 - Task5\n02:56:10 - To-Do List\n03:36:10 - Booksky Project\n04:34:35 - End\n\nBy the end of this course, you’ll have mastered JavaScript’s core principles, gained hands-on coding experience, and built projects that strengthen your foundation for advanced web development.", 
+"syllabus": [
+  {
+    "module": "Module 1: Introduction to JavaScript",
+    "topics": [
+      "What is JavaScript? History & evolution",
+      "JavaScript in browsers — How it works",
+      "Setting up development environment (VS Code, Browser Console)",
+      "JavaScript syntax rules",
+      "Variables & Constants (let, const, var)",
+      "Data Types (String, Number, Boolean, Undefined, Null)",
+      "Operators (Arithmetic, Comparison, Logical, Assignment)",
+      "Comments & Coding standards"
+    ]
+  },
+  {
+    "module": "Module 2: Control Flow & Functions",
+    "topics": [
+      "Conditional statements (if, else-if, switch)",
+      "Loops (for, while, do-while, for…of, for…in)",
+      "Introduction to functions",
+      "Function Expressions vs Declarations",
+      "Arrow functions",
+      "Parameters & return values",
+      "Scope (local, global, block)",
+      "Hoisting",
+      "Closures & Lexical scope"
+    ]
+  },
+  {
+    "module": "Module 3: Working with Objects and Arrays",
+    "topics": [
+      "Understanding objects and properties",
+      "Creating and modifying objects",
+      "Object methods and 'this' keyword",
+      "Prototypes and inheritance",
+      "Introduction to arrays",
+      "Array methods (push, pop, map, filter, reduce, find)",
+      "Iterating over arrays",
+      "Nested objects and arrays"
+    ]
+  },
+  {
+    "module": "Module 4: The DOM and Events",
+    "topics": [
+      "What is the DOM?",
+      "Selecting and manipulating DOM elements",
+      "Modifying attributes, text, and styles",
+      "Creating and removing elements dynamically",
+      "Handling events (click, input, submit, etc.)",
+      "Event bubbling and delegation",
+      "Practical DOM manipulation examples",
+      "Building simple interactive UI components"
+    ]
+  },
+  {
+    "module": "Module 5: Asynchronous JavaScript",
+    "topics": [
+      "Understanding synchronous vs asynchronous code",
+      "Callbacks and callback hell",
+      "Promises — creating and chaining",
+      "Using async and await",
+      "Error handling in async code (try...catch)",
+      "Working with APIs using fetch()",
+      "Real-world examples: fetching JSON data",
+      "Practical async project exercises"
+    ]
+  },
+  {
+    "module": "Module 6: ES6+ Advanced Concepts",
+    "topics": [
+      "Let & const vs var — scope differences",
+      "Template literals and string interpolation",
+      "Destructuring arrays and objects",
+      "Spread and rest operators",
+      "Default parameters and arrow functions revisited",
+      "Modules — import and export syntax",
+      "Classes and constructors",
+      "Advanced features: Sets, Maps, and Iterators"
+    ]
+  },
+  {
+    "module": "Module 7: Real-world Applications",
+    "topics": [
+      "Building a To-Do List app",
+      "Creating a Booksky mini-project",
+      "Handling user input and validation",
+      "LocalStorage for data persistence",
+      "Dynamic UI updates with JavaScript",
+      "Modularizing your project code",
+      "Practical debugging techniques",
+      "Testing and improving performance"
+    ]
+  },
+  {
+    "module": "Module 8: Best Practices and Deployment",
+    "topics": [
+      "JavaScript best coding practices",
+      "Avoiding common pitfalls and errors",
+      "Code readability and maintainability",
+      "Using linters and formatters (ESLint, Prettier)",
+      "Version control basics with Git",
+      "Minification and optimization techniques",
+      "Hosting and deploying JavaScript projects",
+      "Next steps: learning frameworks (React, Node.js)"
+    ]
+  }
+],
+ "quiz": [
+  {
+    "question": "Which keyword is used to declare a variable in JavaScript?",
+    "options": ["var", "let", "const", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "question": "What does DOM stand for?",
+    "options": [
+      "Document Object Model",
+      "Data Object Management",
+      "Digital Ordinance Model",
+      "Desktop Object Mapping"
+    ],
+    "answer": "Document Object Model"
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["// for single-line, /* */ for multi-line", "#", "<!-- -->", "--"],
+    "answer": "// for single-line, /* */ for multi-line"
+  },
+  {
+    "question": "Which of the following is NOT a JavaScript data type?",
+    "options": ["String", "Boolean", "Float", "Undefined"],
+    "answer": "Float"
+  },
+  {
+    "question": "How do you write 'Hello World' in an alert box?",
+    "options": ["alert('Hello World');", "msg('Hello World');", "alertBox('Hello World');", "print('Hello World');"],
+    "answer": "alert('Hello World');"
+  },
+  {
+    "question": "Which method is used to select an HTML element by its ID?",
+    "options": ["getElementById()", "getElementsByClassName()", "querySelectorAll()", "getElementByName()"],
+    "answer": "getElementById()"
+  },
+  {
+    "question": "What is the output of typeof null in JavaScript?",
+    "options": ["'null'", "'undefined'", "'object'", "'number'"],
+    "answer": "'object'"
+  },
+  {
+    "question": "Which operator is used to assign a value to a variable?",
+    "options": ["=", "==", "===", "=>"],
+    "answer": "="
+  },
+  {
+    "question": "How can you create a function in JavaScript?",
+    "options": [
+      "function myFunction() { }",
+      "def myFunction() { }",
+      "create function myFunction()",
+      "func myFunction()"
+    ],
+    "answer": "function myFunction() { }"
+  },
+  {
+    "question": "Which array method is used to remove the last element from an array?",
+    "options": ["pop()", "push()", "shift()", "slice()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "What is the correct way to write a JavaScript array?",
+    "options": [
+      "var colors = ['red', 'green', 'blue'];",
+      "var colors = 'red', 'green', 'blue';",
+      "var colors = (1:'red', 2:'green', 3:'blue');",
+      "var colors = {'red', 'green', 'blue'};"
+    ],
+    "answer": "var colors = ['red', 'green', 'blue'];"
+  },
+  {
+    "question": "What will be the result of 2 + '2' in JavaScript?",
+    "options": ["4", "'4'", "'22'", "Error"],
+    "answer": "'22'"
+  }
+]
+},
+  {
+  "id": "2",
+  "title": "React for Beginners",
+  "description": "Learn React and build dynamic user interfaces with reusable components and modern hooks.",
+  "category": "Web Development",
+  "level": "Intermediate",
+  "duration": "12 hours",
+  "enrolledCount": 90,
+  "rating": 4.7,
+  "instructor": "Jane Smith",
+  "videoUrl": "https://youtu.be/SqcY0GlETPk?si=LUjKdHnMGC4fu8D-",
+  "notesUrl": "https://www.newline.co/fullstack-react/assets/media/sGEMe/MNzue/30-days-of-react-ebook-fullstackio.pdf",
+  "tags": ["React", "Hooks", "Components", "Frontend", "UI Development"],
+"overview": "In this hands-on “React for Beginners” course, you’ll explore how to build powerful and dynamic user interfaces using React — the most popular JavaScript library for front-end development.\n\n• Start by understanding what React is, its role in modern web development, and why it’s preferred over traditional DOM manipulation.\n• Learn how to set up your React development environment using VS Code and create your first React app using Create React App.\n• Dive deep into React components — the building blocks of every React application — and understand how JSX works to blend HTML with JavaScript.\n• Explore core React concepts including props, state management, event handling, and component reusability.\n• Learn how React’s virtual DOM improves performance and how React efficiently updates the UI when data changes.\n• Discover advanced concepts like conditional rendering, rendering lists, fragments, and passing data/functions between components.\n• Strengthen your knowledge with practical exercises such as building a Button and Alert component, managing states, and handling user events interactively.\n• Inspect and debug React components effectively using React Developer Tools to optimize your workflow.\n\n📘 Modules Covered in this Course:\n1️⃣ Introduction to React\n2️⃣ React Components & JSX\n3️⃣ State & Props\n4️⃣ Event Handling in React\n5️⃣ Conditional Rendering & Lists\n6️⃣ Advanced Component Concepts\n7️⃣ Debugging with React DevTools\n8️⃣ Mini Projects & Exercises\n\n🎬 Video Timestamps:\n00:00:00 - Course Intro\n00:01:55 - Prerequisites\n00:02:43 - What is React?\n00:04:57 - Setting Up the Development Environment\n00:06:24 - Creating a React App\n00:09:17 - Project Structure\n00:11:20 - Creating a React Component\n00:16:41 - How React Works\n00:19:00 - React Ecosystem\n00:21:04 - Building Components\n00:21:40 - Creating a ListGroup Component\n00:27:15 - Fragments\n00:29:42 - Rendering Lists\n00:33:11 - Conditional Rendering\n00:38:36 - Handling Events\n00:44:43 - Managing State\n00:50:44 - Passing Data Via Props\n00:54:42 - Passing Functions Via Props\n00:58:27 - State Vs Props\n01:00:00 - Passing Children\n01:05:04 - Inspecting Components with React Dev Tools\n01:07:14 - Exercise: Building a Button Component\n01:14:15 - Exercise: Showing an Alert\n\nBy the end of this course, you’ll have a strong understanding of React’s core principles, be able to build reusable and interactive components, and gain the confidence to develop modern web applications using React.",
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to React & Environment Setup",
+      "topics": [
+        "What is React and why use it?",
+        "Understanding React’s component-based architecture",
+        "Setting up the development environment (Node.js, VS Code, Create React App)",
+        "React Project Structure",
+        "How React Works — Virtual DOM & Rendering"
+      ]
+    },
+    {
+      "module": "Module 2: JSX, Components, and Props",
+      "topics": [
+        "What is JSX?",
+        "Creating and exporting functional components",
+        "Understanding props and passing data between components",
+        "Nested components and reusability",
+        "PropTypes and defaultProps"
+      ]
+    },
+    {
+      "module": "Module 3: State Management & Event Handling",
+      "topics": [
+        "Introduction to useState hook",
+        "Handling user input and events",
+        "Updating state dynamically",
+        "Conditional rendering",
+        "Difference between props and state"
+      ]
+    },
+    {
+      "module": "Module 4: Lists, Conditional Rendering & Fragments",
+      "topics": [
+        "Rendering lists using map()",
+        "Assigning unique keys to list items",
+        "Using Fragments to group elements",
+        "Conditional rendering with ternary and logical operators",
+        "Practical list-based UI examples"
+      ]
+    },
+    {
+      "module": "Module 5: Hooks — useState, useEffect & useRef",
+      "topics": [
+        "Introduction to React Hooks",
+        "Managing side effects with useEffect",
+        "Using useRef for DOM references",
+        "Rules of Hooks and custom hooks",
+        "Practical use cases and exercises"
+      ]
+    },
+    {
+      "module": "Module 6: React Router & Navigation",
+      "topics": [
+        "Installing and configuring React Router",
+        "Creating multiple pages with Routes and Link",
+        "Navigation using useNavigate",
+        "Handling dynamic routes and parameters",
+        "Protected routes and redirects"
+      ]
+    },
+    {
+      "module": "Module 7: Building Reusable Components",
+      "topics": [
+        "Component composition and abstraction",
+        "Reusable Button and Alert components",
+        "Using children prop for flexible components",
+        "Organizing components in folders",
+        "Refactoring to maintainable structure"
+      ]
+    },
+    {
+      "module": "Module 8: Debugging with React Dev Tools",
+      "topics": [
+        "Installing React Developer Tools",
+        "Inspecting component hierarchy",
+        "Debugging props and state",
+        "Performance optimization with Profiler",
+        "Common debugging strategies"
+      ]
+    },
+    {
+      "module": "Module 9: Project — Building a Complete React App",
+      "topics": [
+        "Planning and structuring the app",
+        "Creating pages and routing",
+        "Integrating API calls",
+        "State management and component interaction",
+        "Finalizing and deploying the project"
+      ]
+    },
+    {
+      "module": "Module 10: Best Practices and Optimization",
+      "topics": [
+        "Code organization and naming conventions",
+        "Performance optimization techniques",
+        "Avoiding re-renders using memo and callback",
+        "Accessibility and responsiveness",
+        "Deployment and future learning paths"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What does JSX stand for?",
+      "options": [
+        "JavaScript XML",
+        "JSON Syntax Extension",
+        "Java Syntax Extension",
+        "JavaScript Extension"
+      ],
+      "answer": "JavaScript XML"
+    },
+    {
+      "question": "Which hook is used to handle state in React?",
+      "options": ["useState", "useEffect", "useRef", "useContext"],
+      "answer": "useState"
+    },
+    {
+      "question": "What is the main purpose of the useEffect hook?",
+      "options": [
+        "Handle side effects in components",
+        "Render JSX",
+        "Update props",
+        "Create components"
+      ],
+      "answer": "Handle side effects in components"
+    },
+    {
+      "question": "What is the correct way to pass data from parent to child component?",
+      "options": [
+        "Using props",
+        "Using state",
+        "Using context",
+        "Using Redux"
+      ],
+      "answer": "Using props"
+    },
+    {
+      "question": "Which command is used to create a new React app?",
+      "options": [
+        "npx create-react-app myApp",
+        "npm start react",
+        "react new myApp",
+        "npm build react"
+      ],
+      "answer": "npx create-react-app myApp"
+    },
+    {
+      "question": "What is the virtual DOM in React?",
+      "options": [
+        "A lightweight copy of the real DOM for faster updates",
+        "A physical browser DOM",
+        "A JSON representation of HTML",
+        "A storage for hooks"
+      ],
+      "answer": "A lightweight copy of the real DOM for faster updates"
+    },
+    {
+      "question": "What is the purpose of keys in React lists?",
+      "options": [
+        "Help React identify which items have changed",
+        "Define component order",
+        "Store values in arrays",
+        "Add styling to list items"
+      ],
+      "answer": "Help React identify which items have changed"
+    },
+    {
+      "question": "Which hook is used for referencing DOM elements?",
+      "options": ["useRef", "useState", "useEffect", "useMemo"],
+      "answer": "useRef"
+    },
+    {
+      "question": "What is the difference between props and state?",
+      "options": [
+        "Props are read-only, state can be changed",
+        "Both are mutable",
+        "State is passed to parent component",
+        "Props and state are identical"
+      ],
+      "answer": "Props are read-only, state can be changed"
+    },
+    {
+      "question": "Which of the following is used for navigation in React?",
+      "options": [
+        "React Router",
+        "React DOM",
+        "React Navigator",
+        "React Switch"
+      ],
+      "answer": "React Router"
+    }
+  ]
+}
+,
+  {
+  "id": "3",
+  "title": "UI/UX Design Fundamentals",
+  "description": "Master the essential principles of User Interface and User Experience Design. Learn how to design engaging digital experiences using design thinking, color psychology, and Figma.",
+  "category": "Design",
+  "level": "Beginner to Intermediate",
+  "duration": "2.5 hours",
+  "enrolledCount": 150,
+  "rating": 4.8,
+  "instructor": "Rahul Patil",
+  "videoUrl": "https://youtu.be/TJtEQ1p1hw4?si=xGGlEQAswKYiGpHe",
+  "notesUrl": "https://course.ccs.neu.edu/cs5500sp17/09-UX.pdf",
+  "tags": ["UI Design", "UX Design", "Figma", "Design Thinking", "Typography"],
+  "overview": "This comprehensive 'UI/UX Design Fundamentals' course introduces learners to the world of user-centered design. Through practical examples, visual demonstrations, and Figma tutorials, you’ll learn to design interfaces that are both beautiful and functional.\n\n• Understand what UI/UX design is and why it matters in product development.\n• Explore the responsibilities and mindset of a professional UI/UX designer.\n• Learn key concepts like Design Thinking, Color Theory, and Typography.\n• Understand UX Laws that guide user behavior and decision-making.\n• Get hands-on practice using Figma for creating wireframes, interfaces, and prototypes.\n\n🎬 **Video Timestamps:**\n00:00 - Introduction\n00:40 - What is UI/UX?\n12:00 - Role of a UI/UX Designer\n17:00 - Breaking Myths About Designers\n24:58 - How Should a Designer Think?\n45:00 - UI/UX Case Study and Portfolio\n50:27 - Design Thinking Process\n53:00 - Brand Strategy\n57:40 - Typography\n1:05:47 - Logo Types\n1:09:54 - Color Theory\n1:21:06 - Color Psychology\n1:28:12 - UX Laws\n1:45:50 - Introduction to Figma\n1:53:29 - Installing Figma\n2:10:56 - Figma Basics\n2:27:11 - Pen Tool Tutorial\n2:54:30 - Pie Chart & Login Page Design\n\nBy the end of this course, you'll be able to apply the complete UI/UX workflow — from user research and wireframing to interactive prototypes — and confidently design digital products that users love.",
+"syllabus": [
+  {
+    "module": "Introduction to UI/UX",
+    "topics": [
+      "What is User Interface (UI) and User Experience (UX)?",
+      "Difference between UI and UX",
+      "Importance of design in product success",
+      "Understanding user-centered design",
+      "Overview of UI/UX workflow and process",
+      "Real-world examples of great UI/UX (Apple, Airbnb, Google)"
+    ],
+    "videoTimestamp": "0:40 – 12:00",
+    "notesReference": "Sections 1.1–1.3 in UX Notes PDF"
+  },
+  {
+    "module": "Role of a UI/UX Designer",
+    "topics": [
+      "Responsibilities and day-to-day tasks",
+      "Skillset required (creativity, empathy, research, prototyping)",
+      "Tools used by designers (Figma, Adobe XD, Miro)",
+      "Myths and misconceptions about UI/UX designers",
+      "Collaboration with developers and product teams"
+    ],
+    "videoTimestamp": "12:00 – 24:58",
+    "notesReference": "Sections 2.1–2.2"
+  },
+  {
+    "module": "Design Thinking Process",
+    "topics": [
+      "What is Design Thinking?",
+      "The 5 Phases: Empathize, Define, Ideate, Prototype, Test",
+      "Real-world case study walkthrough",
+      "How to think like a designer",
+      "Problem-solving through human-centered design"
+    ],
+    "videoTimestamp": "45:00 – 53:00",
+    "notesReference": "Section 3 — Design Thinking Process"
+  },
+  {
+    "module": "Brand Strategy and Identity",
+    "topics": [
+      "What is Brand Identity?",
+      "Importance of consistency in branding",
+      "Defining brand tone, color, and personality",
+      "Understanding logo types (wordmark, emblem, abstract)",
+      "Building a strong design system"
+    ],
+    "videoTimestamp": "53:00 – 1:05:47",
+    "notesReference": "Sections 4.1–4.2"
+  },
+  {
+    "module": "Typography and Visual Hierarchy",
+    "topics": [
+      "What is Typography?",
+      "Font types and classifications (serif, sans-serif, decorative)",
+      "Principles of good typography",
+      "Font pairing and hierarchy",
+      "Typography in user interfaces"
+    ],
+    "videoTimestamp": "57:40 – 1:09:00",
+    "notesReference": "Sections 5.1–5.3"
+  },
+  {
+    "module": "Color Theory and Psychology",
+    "topics": [
+      "Basics of Color Theory (Primary, Secondary, Tertiary)",
+      "Understanding the Color Wheel",
+      "Warm vs Cool Colors",
+      "Psychology and meaning of colors in UX",
+      "Using color to build emotion and engagement"
+    ],
+    "videoTimestamp": "1:05:47 – 1:28:12",
+    "notesReference": "Sections 6.1–6.4"
+  },
+  {
+    "module": "UX Laws and Design Principles",
+    "topics": [
+      "Importance of UX Laws in design",
+      "Fitt’s Law",
+      "Goal Gradient Effect",
+      "Occam’s Razor",
+      "Law of Proximity & Similarity",
+      "Peak-End Rule",
+      "Zeigarnik Effect",
+      "Postel’s Law",
+      "Applying laws to real interfaces"
+    ],
+    "videoTimestamp": "1:28:12 – 1:45:50",
+    "notesReference": "Sections 7.1–7.6"
+  },
+  {
+    "module": "Figma Basics",
+    "topics": [
+      "Introduction to Figma Interface",
+      "Installing Figma and setting up account",
+      "Frames, grids, and alignment tools",
+      "Basic shapes, icons, and components",
+      "Tips for efficient Figma design workflow"
+    ],
+    "videoTimestamp": "1:45:50 – 2:10:56",
+    "notesReference": "Section 8.1"
+  },
+  {
+    "module": "Figma Advanced Tools",
+    "topics": [
+      "Using Pen Tool for custom shapes",
+      "Working with Text Tool & typography in Figma",
+      "Creating Pie Charts and visual elements",
+      "Designing a login page UI step-by-step",
+      "Exporting assets and prototype sharing"
+    ],
+    "videoTimestamp": "2:10:56 – 2:56:41",
+    "notesReference": "Sections 8.2–8.4"
+  },
+  {
+    "module": "Final Project & Portfolio",
+    "topics": [
+      "Creating a professional UI/UX case study",
+      "Documenting design thinking stages",
+      "Building a personal portfolio with case studies",
+      "Presenting design work effectively"
+    ],
+    "videoTimestamp": "— Portfolio & Case Study",
+    "notesReference": "Sections 9.1–9.3"
+  }
+]
+,
+  "quiz": [
+    {
+      "question": "What does UX stand for?",
+      "options": ["User Xperience", "User Experience", "Universal Experience", "Unique Xperience"],
+      "answer": "User Experience"
+    },
+    {
+      "question": "Which tool is widely used for UI design and prototyping?",
+      "options": ["Figma", "Excel", "Notepad", "Photoshop"],
+      "answer": "Figma"
+    },
+    {
+      "question": "Which stage comes first in Design Thinking?",
+      "options": ["Define", "Prototype", "Empathize", "Test"],
+      "answer": "Empathize"
+    },
+    {
+      "question": "Which color is often associated with trust and security?",
+      "options": ["Red", "Blue", "Green", "Yellow"],
+      "answer": "Blue"
+    },
+    {
+      "question": "What is Typography mainly concerned with?",
+      "options": ["Image composition", "Font style and readability", "Page margins", "Logo animation"],
+      "answer": "Font style and readability"
+    },
+    {
+      "question": "Which UX Law suggests that 'the time to acquire a target depends on the distance and size of the target'?",
+      "options": ["Fitt’s Law", "Hick’s Law", "Miller’s Law", "Postel’s Law"],
+      "answer": "Fitt’s Law"
+    },
+    {
+      "question": "Which software feature allows you to create vector shapes in Figma?",
+      "options": ["Pen Tool", "Brush Tool", "Shape Maker", "Bezier Tool"],
+      "answer": "Pen Tool"
+    },
+    {
+      "question": "Color psychology helps designers to:",
+      "options": ["Understand user emotions", "Increase coding speed", "Reduce design cost", "Improve page loading"],
+      "answer": "Understand user emotions"
+    },
+    {
+      "question": "What is the main purpose of wireframing?",
+      "options": ["Designing animations", "Structuring layout and content", "Adding final visuals", "Coding interactions"],
+      "answer": "Structuring layout and content"
+    },
+    {
+      "question": "Which of the following is an example of UX documentation?",
+      "options": ["Wireframe", "Video ad", "Logo design", "Banner image"],
+      "answer": "Wireframe"
+    }
+  ]
+},
+{
+  "id": "4",
+  "title": "Java Programming Mastery",
+  "description": "Learn Java programming from the ground up and master core object-oriented concepts to build robust applications.",
+  "category": "Programming",
+  "level": "Beginner to Intermediate",
+  "duration": "8 hours",
+  "enrolledCount": 85,
+  "rating": 4.6,
+  "instructor": "Alex Carter",
+  "videoUrl": "https://youtu.be/kGxSyqKbzsc?si=iqiI0nzvhjAjoFAq",
+  "notesUrl": "https://mrcet.com/downloads/digital_notes/IT/Java%20Programming.pdf",
+  "tags": ["Java", "OOP", "Backend"],
+  "overview": "The “Java Programming Mastery” course provides a complete journey from beginner-level programming to mastering the powerful features of Java.\n\n• Start with understanding how Java works, its setup process, and fundamental syntax.\n• Learn about variables, data types, and control flow statements to build logic-driven programs.\n• Dive deep into loops, arrays, and functions to handle data efficiently.\n• Master Object-Oriented Programming (OOP) concepts like classes, objects, inheritance, polymorphism, and abstraction.\n• Explore advanced topics like constructors, method overloading, interfaces, exception handling, and file operations.\n• Gain practical experience through coding challenges after every key module.\n• Learn multithreading, synchronization, and exception handling to build high-performance Java applications.\n• Understand how to use Eclipse IDE for Java development and enhance productivity.\n\n📘 Modules Covered in this Course:\n1️⃣ Introduction and Java Setup\n2️⃣ Variables, Data Types & Operators\n3️⃣ Control Statements and Loops\n4️⃣ Arrays and Coding Challenges\n5️⃣ Object-Oriented Programming\n6️⃣ Inheritance, Abstraction & Interfaces\n7️⃣ Exception Handling\n8️⃣ File Handling and Threads\n\n🎬 Video Timestamps:\n00:00 - Introduction\n02:41 - Java Setup\n09:07 - How Java Works\n11:45 - Variables and Data Types\n23:55 - User Input\n32:16 - Coding Challenge\n47:20 - Types of Data\n58:50 - If Else\n01:15:36 - Compare Two Strings\n01:32:23 - Coding Challenge 2\n01:57:30 - Else If and Nested If\n02:09:01 - Coding Challenge\n02:25:30 - Ternary Operator\n02:32:11 - For Loop\n02:47:35 - Coding Challenge 3\n03:05:58 - Array\n03:21:20 - Coding Challenge 3 Pt-2\n03:37:50 - Nested For Loop\n03:49:18 - While Loop\n03:58:05 - Do-While Loop\n04:03:23 - Classes and Objects\n04:14:27 - Functions\n04:25:43 - Functions with Parameters\n04:35:23 - Return Keyword\n04:45:49 - Coding Challenge 4\n04:58:07 - Method Parameters\n05:04:20 - For Each Loop\n05:09:32 - Eclipse Installation\n05:12:59 - Constructors\n05:20:29 - Constructor Overloading\n05:28:54 - This Keyword\n05:36:37 - Inheritance\n05:42:44 - Types of Inheritance\n05:54:03 - Coding Challenge 5\n06:08:58 - Super Keyword\n06:21:50 - Abstract\n06:26:17 - Access Modifiers\n06:38:42 - Static Keyword\n06:46:46 - Final Keyword\n06:49:41 - Coding Challenge 6\n07:10:45 - Interface\n07:21:43 - Multiple Inheritance\n07:24:46 - Lambda Expression\n07:28:23 - Exception Handling\n07:41:28 - Finally Keyword\n07:45:06 - Throw Keyword\n07:49:03 - Custom Exception Handling\n07:53:18 - Coding Challenge 7\n08:02:37 - File Handling (Text Files)\n08:09:04 - Reading Text Files\n08:14:54 - Threads\n08:23:08 - Join Methods in Threads\n08:26:50 - Threads using Runnable\n\nBy the end of this course, you’ll have mastered Java programming principles, object-oriented design, and hands-on coding skills essential for backend and software development.",
+  
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction and Setup",
+      "topics": [
+        "Introduction to Java and its features",
+        "Installing JDK and setting up environment",
+        "How Java works (Compilation and JVM)",
+        "Writing and running your first program"
+      ]
+    },
+    {
+      "module": "Module 2: Variables, Data Types & Operators",
+      "topics": [
+        "Understanding variables and constants",
+        "Primitive and non-primitive data types",
+        "Operators (Arithmetic, Logical, Relational)",
+        "Taking user input using Scanner",
+        "Basic coding challenges"
+      ]
+    },
+    {
+      "module": "Module 3: Control Statements and Loops",
+      "topics": [
+        "If-Else and Nested If",
+        "Ternary operator",
+        "Switch statements",
+        "For loop, While loop, Do-while loop",
+        "Break and continue statements",
+        "Practical loop challenges"
+      ]
+    },
+    {
+      "module": "Module 4: Arrays and Functions",
+      "topics": [
+        "Array declaration and initialization",
+        "Looping through arrays",
+        "For-each loop",
+        "Functions in Java",
+        "Function parameters and return values",
+        "Method overloading and scope"
+      ]
+    },
+    {
+      "module": "Module 5: Object-Oriented Programming",
+      "topics": [
+        "Classes and Objects",
+        "Constructors and Constructor Overloading",
+        "This keyword and instance variables",
+        "Eclipse setup and project creation",
+        "Practical coding exercises"
+      ]
+    },
+    {
+      "module": "Module 6: Inheritance, Abstraction & Interfaces",
+      "topics": [
+        "Inheritance and its types",
+        "Super keyword usage",
+        "Abstract classes and methods",
+        "Access modifiers (public, private, protected)",
+        "Static and Final keywords",
+        "Interfaces and multiple inheritance",
+        "Lambda expressions"
+      ]
+    },
+    {
+      "module": "Module 7: Exception Handling",
+      "topics": [
+        "Introduction to exceptions",
+        "Try-catch-finally blocks",
+        "Throw and throws keywords",
+        "Custom exceptions",
+        "Real-world exception handling examples"
+      ]
+    },
+    {
+      "module": "Module 8: File Handling and Threads",
+      "topics": [
+        "File creation and writing data",
+        "Reading from text files",
+        "Multithreading concepts",
+        "Thread class and Runnable interface",
+        "Join and sleep methods",
+        "Practical coding projects using threads"
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "Which of the following is not a Java feature?",
+      "options": ["Object-Oriented", "Use of pointers", "Portable", "Dynamic"],
+      "answer": "Use of pointers"
+    },
+    {
+      "question": "Which keyword is used to define a class in Java?",
+      "options": ["define", "class", "struct", "object"],
+      "answer": "class"
+    },
+    {
+      "question": "Which method is the entry point of a Java program?",
+      "options": ["run()", "execute()", "main()", "start()"],
+      "answer": "main()"
+    },
+    {
+      "question": "Which of these is not a primitive data type in Java?",
+      "options": ["int", "boolean", "String", "double"],
+      "answer": "String"
+    },
+    {
+      "question": "Which keyword is used for inheritance in Java?",
+      "options": ["inherits", "extends", "implements", "super"],
+      "answer": "extends"
+    },
+    {
+      "question": "Which exception occurs when an array index is out of range?",
+      "options": ["IOException", "IndexOutOfBoundsException", "NullPointerException", "RuntimeException"],
+      "answer": "IndexOutOfBoundsException"
+    },
+    {
+      "question": "Which keyword is used to prevent inheritance of a class?",
+      "options": ["final", "static", "private", "sealed"],
+      "answer": "final"
+    },
+    {
+      "question": "Which of the following allows multiple inheritance in Java?",
+      "options": ["Classes", "Interfaces", "Abstract classes", "Enums"],
+      "answer": "Interfaces"
+    },
+    {
+      "question": "Which keyword is used to handle exceptions in Java?",
+      "options": ["try-catch", "throw-catch", "handle-error", "error-try"],
+      "answer": "try-catch"
+    },
+    {
+      "question": "Which method is used to start a thread in Java?",
+      "options": ["execute()", "start()", "run()", "begin()"],
+      "answer": "start()"
+    }
+  ]
+},
+{
+  "id": "5",
+  "title": "DSA Mastery (Data Structures & Algorithms)",
+  "description": "Master core data structures and algorithms with practical coding sessions, problem-solving strategies, and interview preparation.",
+  "category": "Programming",
+  "level": "Intermediate",
+  "duration": "49 hours",
+  "enrolledCount": 135,
+  "rating": 4.8,
+  "instructor": "CodeWithHarry",
+  "videoUrl": "https://youtu.be/xwI5OBEnsZU?si=PUDQItN9zzgKBWjj",
+  "notesUrl": "https://www.vidyalankar.org/infinite/assets/docs/study-material/cse-module-3.pdf",
+  "tags": ["DSA", "Algorithms", "Programming", "Interview Prep"],
+  "overview": "This 'DSA Mastery' course is your complete roadmap to understanding Data Structures and Algorithms from scratch to advanced level. You'll not only learn the theory behind each topic but also develop problem-solving skills essential for coding interviews and real-world applications.\n\n📘 What You’ll Learn:\n• Understand time and space complexity (Big O, Omega, Theta).\n• Master essential data structures — Arrays, Linked Lists, Stacks, Queues, Trees, Graphs, Heaps, and Hash Tables.\n• Learn advanced algorithms — Sorting, Searching, Recursion, Backtracking, Dynamic Programming, and Greedy approaches.\n• Solve real-world coding challenges for every topic.\n• Prepare for FAANG-level technical interviews with confidence.\n\n🎬 **Video Timestamps:**\n0:00:00 - Introduction\n0:03:14 - Technical Interviews 101\n0:07:02 - How to Judge an Algorithm\n0:08:02 - What is Time Complexity\n0:18:42 - What is Big O\n0:20:20 - Big O for Code Blocks\n0:33:08 - Space Complexity Example\n0:35:04 - How to Get Good at Solving DSA Problems\n0:37:34 - Types of Data Structures\n0:48:48 - Quick Recap\n0:50:21 - Arrays Full Course\n3:29:02 - Sliding Window Full Course\n5:09:48 - Two Pointers Full Course\n7:00:25 - Strings Full Course\n8:29:27 - Sorting & Searching Full Course\n11:28:48 - Linked List Full Course\n14:08:48 - Stack Full Course\n16:43:55 - Queue Full Course\n17:58:08 - Priority Queue Full Course\n20:55:54 - Trees Full Course\n25:20:01 - Graph Full Course\n32:14:13 - Dynamic Programming Full Course\n37:13:04 - Greedy Full Course\n39:06:36 - Interval Full Course\n40:32:39 - Backtracking Full Course\n42:45:51 - Math & Geometry Full Course\n43:42:30 - Matrix Full Course\n45:55:06 - Design Full Course\n47:22:33 - Bit Manipulation Full Course\n48:48:17 - Final Message\n\nBy the end of this course, you’ll gain a solid understanding of all major data structures, the logic behind algorithms, and techniques to solve complex interview problems efficiently.",
+  
+  "syllabus": [
+    {
+      "module": "Module 1: Introduction to DSA & Complexity Analysis",
+      "topics": [
+        "What is DSA and why it matters",
+        "Types of data structures",
+        "Time and Space Complexity",
+        "Big O, Omega, and Theta notations",
+        "Analyzing code blocks",
+        "Common complexity examples"
+      ]
+    },
+    {
+      "module": "Module 2: Arrays & String Manipulation",
+      "topics": [
+        "Array creation and operations",
+        "2D arrays and matrices",
+        "String manipulation techniques",
+        "Common array problems (max, min, reverse, rotate)",
+        "Sliding Window Technique",
+        "Two Pointers Technique"
+      ]
+    },
+    {
+      "module": "Module 3: Linked Lists",
+      "topics": [
+        "Singly linked list implementation",
+        "Doubly linked list",
+        "Circular linked list",
+        "Insertion and deletion operations",
+        "Reversal of linked list",
+        "Common linked list problems"
+      ]
+    },
+    {
+      "module": "Module 4: Stacks and Queues",
+      "topics": [
+        "Stack operations using arrays and linked lists",
+        "Applications of stack (Parenthesis matching, Infix to Postfix)",
+        "Queue implementation (linear and circular)",
+        "Deque and Priority Queue",
+        "Stack vs Queue performance analysis"
+      ]
+    },
+    {
+      "module": "Module 5: Trees and Binary Search Trees",
+      "topics": [
+        "Tree terminologies and types",
+        "Binary tree and traversal methods (inorder, preorder, postorder)",
+        "Binary Search Tree (BST) insertion and deletion",
+        "AVL and Balanced trees",
+        "Heap and Priority Queue implementation"
+      ]
+    },
+    {
+      "module": "Module 6: Graphs and Traversal Algorithms",
+      "topics": [
+        "Graph representation (Adjacency list, matrix)",
+        "DFS and BFS traversal",
+        "Shortest path algorithms (Dijkstra, Bellman-Ford)",
+        "Topological sorting",
+        "Minimum Spanning Tree (Prim’s & Kruskal’s)"
+      ]
+    },
+    {
+      "module": "Module 7: Sorting & Searching Algorithms",
+      "topics": [
+        "Bubble, Selection, Insertion sort",
+        "Merge Sort and Quick Sort",
+        "Binary and Linear Search",
+        "Counting and Radix Sort",
+        "Algorithm efficiency comparison"
+      ]
+    },
+    {
+      "module": "Module 8: Advanced Problem Solving Techniques",
+      "topics": [
+        "Dynamic Programming fundamentals",
+        "Greedy algorithms and applications",
+        "Backtracking algorithms",
+        "Bit Manipulation concepts",
+        "Math & Geometry problems"
+      ]
+    },
+    {
+      "module": "Module 9: System Design & Real-world Applications",
+      "topics": [
+        "Basic design principles",
+        "Designing scalable systems",
+        "DSA in real-world projects",
+        "Trade-offs between data structures"
+      ]
+    },
+    {
+      "module": "Module 10: Interview Preparation & Final Project",
+      "topics": [
+        "Common DSA interview questions",
+        "Pattern-based problem solving",
+        "Mock interview preparation",
+        "Final capstone project"
+      ]
+    }
+  ],
+
+  "quiz": [
+    {
+      "question": "What is the time complexity of binary search in a sorted array?",
+      "options": ["O(n)", "O(log n)", "O(n log n)", "O(1)"],
+      "answer": "O(log n)"
+    },
+    {
+      "question": "Which data structure works on the principle of LIFO?",
+      "options": ["Queue", "Stack", "Array", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "question": "What is the best case complexity of Quick Sort?",
+      "options": ["O(n)", "O(n log n)", "O(n²)", "O(log n)"],
+      "answer": "O(n log n)"
+    },
+    {
+      "question": "Which traversal method in trees visits nodes level by level?",
+      "options": ["Inorder", "Preorder", "Postorder", "Level Order"],
+      "answer": "Level Order"
+    },
+    {
+      "question": "Which data structure is used to implement recursion?",
+      "options": ["Queue", "Array", "Stack", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "question": "What is the main advantage of using Hash Tables?",
+      "options": ["Fast access using keys", "Sorted storage", "Supports recursion", "Dynamic memory allocation"],
+      "answer": "Fast access using keys"
+    },
+    {
+      "question": "Which algorithm is used to find the shortest path in a weighted graph?",
+      "options": ["DFS", "BFS", "Dijkstra’s Algorithm", "Kruskal’s Algorithm"],
+      "answer": "Dijkstra’s Algorithm"
+    },
+    {
+      "question": "What is the space complexity of recursive Fibonacci without memoization?",
+      "options": ["O(1)", "O(n)", "O(n²)", "O(2ⁿ)"],
+      "answer": "O(n)"
+    },
+    {
+      "question": "Which sorting algorithm is considered stable?",
+      "options": ["Quick Sort", "Merge Sort", "Heap Sort", "Selection Sort"],
+      "answer": "Merge Sort"
+    },
+    {
+      "question": "Which of the following data structures can be used to detect a cycle in a graph?",
+      "options": ["Stack", "Queue", "Hash Set", "Priority Queue"],
+      "answer": "Hash Set"
+    }
+  ]
+},
+{
+  "id": "6",
+  "title": "Excel Mastery for Data Analysis",
+  "description": "Master Microsoft Excel from basics to advanced data analytics — including formulas, charts, PivotTables, Power Query, and Power Pivot.",
+  "category": "Data Analysis",
+  "level": "Beginner to Advanced",
+  "duration": "10 hours",
+  "enrolledCount": 150,
+  "rating": 4.8,
+  "instructor": "Leila Gharani",
+  "videoUrl": "https://youtu.be/pCJ15nGFgVg?si=kUTrVggYo2obnK78",
+  "notesUrl": "https://www.mcrhrdi.gov.in/5th_mesfc2023/material/Microsoft%20Office(Ms-Excel%202016).pdf",
+  "tags": ["Excel", "Data Analysis", "Spreadsheets", "Visualization"],
+  "overview": "This comprehensive “Excel Mastery for Data Analysis” course takes you from beginner to expert level, focusing on practical skills used by data analysts worldwide.\n\n• Understand Excel’s interface, workbook structure, and efficient spreadsheet management.\n• Learn essential formulas, logical and statistical functions, and advanced formula combinations for real-world problem solving.\n• Build professional charts and dashboards to visualize data effectively.\n• Master PivotTables and PivotCharts for summarizing large datasets.\n• Perform advanced data analysis using Excel Add-ins, ToolPak, and Power Query transformations.\n• Learn Power Pivot and DAX for advanced modeling and analytics.\n• Complete hands-on projects such as building a Salary Dashboard and Salary Analysis Report.\n• Access detailed notes for Excel functions and analytical techniques.\n\n📘 **Modules Covered in this Course:**\n1️⃣ Excel Setup & Interface\n2️⃣ Spreadsheets Basics\n3️⃣ Formulas & Functions\n4️⃣ Data Visualization & Charts\n5️⃣ Spreadsheet Formatting & Collaboration\n6️⃣ Projects & Dashboards\n7️⃣ PivotTables & PivotCharts\n8️⃣ Advanced Data Analysis Tools\n9️⃣ Power Query & Transformations\n🔟 Power Pivot & DAX Modeling\n\n🎬 **Video Timestamps:**\n00:00 - Welcome\n03:53 - What is Excel?\n07:19 - About Course\n11:19 - Excel Install\n22:42 - Worksheets\n39:15 - Workbooks\n52:06 - Ribbon\n1:06:39 - Formulas Intro\n1:18:08 - Function Intro\n1:29:14 - Logical Functions\n1:39:54 - Math Functions\n1:49:46 - Statistical Functions\n2:01:14 - Array Formulas\n2:21:28 - Lookup Functions\n2:39:25 - Text Functions\n2:53:19 - Date & Time Functions\n3:01:33 - Charts Intro\n3:22:05 - Charts Advanced\n3:35:37 - Charts Statistics\n3:47:59 - Sparklines\n3:51:57 - Tables\n4:09:28 - Formatting\n4:26:00 - Collaboration\n4:40:30 - Project #1: Build Salary Dashboard\n5:26:43 - Project #1: Share Project\n5:33:46 - PivotTable Intro\n5:54:53 - PivotTable Advanced\n6:09:33 - PivotCharts\n6:19:43 - Analysis Add-ins\n6:39:00 - Data Tables\n6:48:06 - Analysis ToolPak\n7:03:04 - Power Query Intro\n7:23:26 - Power Query Editor\n7:53:13 - Advanced Transformations\n8:14:58 - Append vs Merge\n8:39:13 - M Language\n9:03:11 - Power Pivot Intro\n9:29:01 - Power Pivot Window\n9:48:18 - DAX Intro\n10:09:34 - DAX Advanced\n10:27:40 - Project #2: Salary Analysis\n10:45:13 - Project #2: Document with GitHub\n\nBy the end of this course, you’ll be able to confidently analyze datasets, automate repetitive tasks, and create professional business dashboards for decision-making.",
+  
+  "syllabus": [
+    {
+      "module": "Module 1: Excel Setup & Interface",
+      "topics": [
+        "Installing Excel",
+        "Understanding the Excel interface",
+        "Navigating ribbons and toolbars",
+        "Workbooks and worksheets overview",
+        "Saving and organizing Excel files"
+      ]
+    },
+    {
+      "module": "Module 2: Spreadsheet Fundamentals",
+      "topics": [
+        "Creating and managing worksheets",
+        "Working with cells, rows, and columns",
+        "Basic data entry and editing",
+        "Cell referencing (relative, absolute, mixed)",
+        "Workbook navigation and protection"
+      ]
+    },
+    {
+      "module": "Module 3: Formulas & Functions",
+      "topics": [
+        "Basic formula syntax and usage",
+        "Logical functions (IF, AND, OR, NOT)",
+        "Mathematical functions (SUM, AVERAGE, ROUND)",
+        "Statistical functions (COUNT, MAX, MIN, MEDIAN)",
+        "Text functions (LEFT, RIGHT, MID, CONCATENATE)",
+        "Lookup functions (VLOOKUP, HLOOKUP, XLOOKUP)",
+        "Array formulas and dynamic ranges",
+        "Date and time functions (TODAY, NOW, DATEDIF)"
+      ]
+    },
+    {
+      "module": "Module 4: Data Visualization & Charts",
+      "topics": [
+        "Introduction to charts in Excel",
+        "Column, Line, and Pie charts",
+        "Combo and advanced charts",
+        "Statistical chart techniques",
+        "Sparklines and mini charts",
+        "Formatting and customizing chart designs"
+      ]
+    },
+    {
+      "module": "Module 5: Spreadsheet Formatting & Collaboration",
+      "topics": [
+        "Formatting cells and data types",
+        "Conditional formatting and data highlighting",
+        "Using tables for structured data",
+        "Collaborating with others in Excel",
+        "Tracking changes and comments"
+      ]
+    },
+    {
+      "module": "Module 6: Project 1 — Salary Dashboard",
+      "topics": [
+        "Dashboard planning and layout",
+        "Integrating charts and formulas",
+        "Designing KPIs and metrics",
+        "Automating dashboard updates",
+        "Sharing dashboard reports"
+      ]
+    },
+    {
+      "module": "Module 7: PivotTables & PivotCharts",
+      "topics": [
+        "Creating PivotTables from large data sets",
+        "Customizing fields and filters",
+        "PivotTable formatting and grouping",
+        "Creating interactive PivotCharts",
+        "Slicers and timeline controls"
+      ]
+    },
+    {
+      "module": "Module 8: Advanced Data Analysis Tools",
+      "topics": [
+        "Using Analysis Add-ins",
+        "Working with Data Tables",
+        "Data validation and protection",
+        "Goal Seek and Scenario Manager",
+        "Using Analysis ToolPak for statistics"
+      ]
+    },
+    {
+      "module": "Module 9: Power Query & Transformations",
+      "topics": [
+        "Introduction to Power Query",
+        "Importing and cleaning data",
+        "Power Query Editor overview",
+        "Advanced transformations (split, merge, replace)",
+        "Appending and merging queries",
+        "M language basics for automation"
+      ]
+    },
+    {
+      "module": "Module 10: Power Pivot & DAX",
+      "topics": [
+        "Introduction to Power Pivot",
+        "Creating data models and relationships",
+        "Understanding calculated columns and measures",
+        "Introduction to DAX (Data Analysis Expressions)",
+        "Advanced DAX formulas for analysis",
+        "Project 2 — Salary Analysis Report"
+      ]
+    }
+  ],
+  
+  "quiz": [
+    {
+      "question": "Which function is used to find the average in Excel?",
+      "options": ["MEAN()", "AVG()", "AVERAGE()", "MID()"],
+      "answer": "AVERAGE()"
+    },
+    {
+      "question": "Which symbol is used to start a formula in Excel?",
+      "options": ["=", "+", "-", ":"],
+      "answer": "="
+    },
+    {
+      "question": "Which function retrieves data from a table based on a lookup value?",
+      "options": ["LOOKUP()", "SEARCH()", "VLOOKUP()", "MATCH()"],
+      "answer": "VLOOKUP()"
+    },
+    {
+      "question": "What is the shortcut key to create a new workbook in Excel?",
+      "options": ["Ctrl + N", "Ctrl + W", "Alt + N", "Shift + N"],
+      "answer": "Ctrl + N"
+    },
+    {
+      "question": "What is a PivotTable used for?",
+      "options": [
+        "Visualizing data",
+        "Summarizing and analyzing data",
+        "Formatting text",
+        "Creating charts only"
+      ],
+      "answer": "Summarizing and analyzing data"
+    },
+    {
+      "question": "Which Excel feature allows combining multiple datasets?",
+      "options": ["Power Query", "PivotTable", "Formulas", "Charts"],
+      "answer": "Power Query"
+    },
+    {
+      "question": "What is the main purpose of the DAX language?",
+      "options": [
+        "Database querying",
+        "Data visualization",
+        "Advanced data modeling in Power Pivot",
+        "Spreadsheet formatting"
+      ],
+      "answer": "Advanced data modeling in Power Pivot"
+    },
+    {
+      "question": "Which function is used to return the current date in Excel?",
+      "options": ["NOW()", "DATE()", "TODAY()", "TIME()"],
+      "answer": "TODAY()"
+    },
+    {
+      "question": "What is the default file extension for Excel workbooks?",
+      "options": [".xls", ".xlsx", ".docx", ".csv"],
+      "answer": ".xlsx"
+    },
+    {
+      "question": "Which chart type is best suited for showing data trends over time?",
+      "options": ["Pie Chart", "Bar Chart", "Line Chart", "Scatter Chart"],
+      "answer": "Line Chart"
+    }
+  ]
+}
+
+
+
+
+]
